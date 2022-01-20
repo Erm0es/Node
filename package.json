@@ -1,0 +1,31 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon .",
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Erm0es/Node.git"
+  },
+  "author": "Emelie Wiberg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Erm0es/Node/issues"
+  },
+  "homepage": "https://github.com/Erm0es/Node#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "express": "^4.17.2",
+    "express-handlebars": "^6.0.2",
+    "handlebars": "^4.7.7",
+    "marked": "^4.0.10",
+    "node-fetch": "^3.1.1"
+  }
+}
