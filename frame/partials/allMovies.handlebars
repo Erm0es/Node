@@ -1,0 +1,10 @@
+<div class="mv">
+{{#each movies }}
+  <li class="mvLi">
+    <a href="/movies/{{ this.id }}">
+    <img class="mvImg" src=" {{{ this.attributes.image.url }}}" alt="">
+      <p class="mvTitle">{{ this.attributes.title }} </p>
+    </a>
+  </li>
+{{/each}}
+</div>
