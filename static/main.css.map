@@ -1,0 +1,17 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "main.scss",
+        "_404.scss",
+        "_about.scss",
+        "_allMovies.scss",
+        "_contact.scss",
+        "_footer.scss",
+        "_header.scss",
+        "_home.scss",
+        "_movie.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}
