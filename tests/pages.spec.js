@@ -8,3 +8,8 @@ test('home page shows header, body and footer', async () => {
     .expect(200);
 });
 
+test('movie page shows details of movies', async () => {
+    const response = await request(app)
+    .get('/movies')
+    .expect(200);
+});
