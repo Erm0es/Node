@@ -13,3 +13,10 @@ test('movie page shows details of movies', async () => {
     .get('/movies')
     .expect(200);
 });
+
+test('checks title', async () => {
+    const response = await request(app)
+    .get('/movies/10')
+    .expect(200);
+    expect(response.text.includes('Threat')).toBeTruthy();
+});
